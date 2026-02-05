@@ -1,0 +1,30 @@
+    #include <stdio.h>
+#include <math.h>
+int main() {
+    int n, i;
+    float numbers[100], sum = 0.0, average, stdDev = 0.0;
+
+    printf("Enter the number of elements: ");
+    scanf("%d", &n);
+
+    printf("Enter %d numbers:\n", n);
+    for(i = 0; i < n; ++i) {
+        scanf("%f", &numbers[i]);
+        sum += numbers[i];
+    }
+
+    average = sum / n;
+
+    for(i = 0; i < n; ++i) {
+        stdDev += pow(numbers[i] - average, 2);
+    }
+
+    stdDev = sqrt(stdDev / n);
+
+    printf("\nResults:\n");
+    printf("Sum = %.2f\n", sum);
+    printf("Average = %.2f\n", average);
+    printf("Standard Deviation = %.2f\n", stdDev);
+
+    return 0;
+}

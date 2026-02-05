@@ -1,0 +1,27 @@
+*{
+   
+   font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: pink;
+}
+#name{
+    font-family: monospace;
+    font-size: 60px;
+    color:purple;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+h3{
+    color:blue;
+}
+header,footer{
+    background-color:grey;
+}
+#about_me{
+    display: flex;
+}
