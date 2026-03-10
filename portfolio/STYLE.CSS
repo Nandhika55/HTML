@@ -1,27 +1,65 @@
 *{
-   
-   font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 body{
-    background-color: pink;
+    background-color:#f4f6f9;
+    margin:0;
 }
+
+header,footer{
+    background-color:#1e3a5f;
+    padding:20px;
+    color:white;
+}
+
 #name{
     font-family: monospace;
-    font-size: 60px;
-    color:purple;
+    font-size:60px;
+    color:white;
+}
 
-}
 .nav-link{
-    text-decoration: none;
-    color: brown;
-    font-weight: bold;
+    text-decoration:none;
+    color:#0077b6;
+    font-weight:bold;
+    padding:8px;
 }
+
+.nav-link:hover{
+    color:#ff6b35;
+}
+
 h3{
-    color:blue;
+    color:#1e3a5f;
 }
-header,footer{
-    background-color:grey;
+
+section{
+    padding:20px;
 }
+
 #about_me{
-    display: flex;
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+img{
+    border-radius:10px;
+    border:3px solid #1e3a5f;
+}
+
+table{
+    background:white;
+    border-collapse:collapse;
+}
+
+th{
+    background:#1e3a5f;
+    color:white;
+}
+
+th,td{
+    padding:10px;
+    border:1px solid #ccc;
 }
